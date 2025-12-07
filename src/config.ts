@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/DhruvShah87",
   },
   aboutMe:
-    "Aspiring Software Engineer driven by a passion for solving real-world problems through clean, scalable code. Experienced in software development, cloud deployment, and system design through both industry experience and independent projects. Eager to contribute to meaningful, high-impact engineering teams in the UK",
+    "Aspiring Software Engineer driven by a passion for solving real-world problems through clean, scalable code. Experienced in software development, cloud deployment, and system design through both industry experience and independent projects. Eager to contribute to meaningful, high-impact engineering teams",
   skills: ["Javascript", "Node.js", "Express.js","React", "React Native",  "C++", "SQL", "AWS"],
   projects: [
     {
@@ -78,7 +78,7 @@ export const siteConfig = {
       achievements: [
         "Graduated with 9.01 CPI",
         "Studied core software engineering subjects including Data Structures and Algorithms, OOPs, DBMS, Computer Networks, and Cloud Computing",
-        "Chair of IEE IAS DA-IICT Student Chapter",
+        "Chair of IEEE IAS DA-IICT Student Chapter",
       ],
     },
   ],
