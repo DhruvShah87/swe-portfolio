@@ -1,91 +1,84 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Dhruv Shah",
+  title: "Software Engineer",
+  description: "Portfolio website of Dhruv Shah",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "shahdhruv20012004@gmail.com",
+    linkedin: "https://www.linkedin.com/in/dhruv-shah-52a985227/",
+    twitter: "",
+    github: "https://github.com/DhruvShah87",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Aspiring Software Engineer driven by a passion for solving real-world problems through clean, scalable code. Experienced in software development, cloud deployment, and system design through both industry experience and independent projects. Eager to contribute to meaningful, high-impact engineering teams in the UK",
+  skills: ["Javascript", "Node.js", "Express.js","React", "React Native",  "C++", "SQL", "AWS"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "KitchenConnect",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "KitchenConnect is a cross-platform application that connects tiffin providers with consumers, enabling subscription-based and single-order meal delivery.",
+      link: "https://bit.ly/48LObXM",
+      skills: ["React Native", "Node.js", "Express.js", "MongoDB"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Flight Booking System",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A scalable flight booking platform that manages flight data and ensures consistent, conflict-free seat reservations.",
+      link: "https://github.com/DhruvShah87/airplane_booking",
+      skills: ["Node.js", "Express.js", "SQL"],
     },
     {
-      name: "ExtensionKit",
+      name: "YouTube Chatbot (RAG)",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A retrieval-augmented chatbot that enables users to query and explore YouTube video content through natural language.",
+      link: "https://github.com/DhruvShah87/youtube-chatbot",
+      skills: ["Python", "Langchain", "Gemini" ],
+    },
+    {
+      name: "News Research Tool (RAG)",
+      description:
+        "A Retrieval-Augmented Generation (RAG) agent that helps users find answers from the content of news article URLs ",
+      link: "https://news-research-tool-kklk.onrender.com",
+      skills: ["Python", "Langchain", "Gemini" ],
+    },
+    {
+      name: "Fashion Recommendation System",
+      description:
+        "An image-based recommendation system that suggests visually similar clothing items when a user uploads a garment photo",
+      link: "https://github.com/DhruvShah87/fashion-recommendation-system",
+      skills: ["Python", "Tensorflow" ],
+    },
+    {
+      name: "TEEM",
+      description:
+        "TEEM is a web app designed to streamline collaboration between people from diverse backgrounds by allowing them to create workspaces, organize meetings, and manage tasks.",
+      link: "https://github.com/KrishRupapara/Group-14_Proj-TEEM",
+      skills: ["Node.js", "Express.js", "SQL" ],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Quicko Infosoft Pvt Ltd",
+      title: "Full Stack Developer Intern",
+      dateRange: "Jan 2025 - Mar 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Developed scalable APIs that integrate Gemini models to automate tax-document classification and extraction, speeding processing by 70%.",
+        "Deployed serverless APIs with AWS Lambda and Jenkins CI/CD; provisioned multi-environment infrastructure with Terraform for consistent, scalable releases.",
+        "Added multipart file uploads and PDF validation using PDFLib, cutting invalid submissions by 35%; applied Zod validation to improve output consistency by 75%.",
+        
       ],
     },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Dhirubhai Ambani University",
+      degree: "Bachelors of Technology in Information and Communication Technology",
+      dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Graduated with 9.01 CPI",
+        "Studied core software engineering subjects including Data Structures and Algorithms, OOPs, DBMS, Computer Networks, and Cloud Computing",
+        "Chair of IEE IAS DA-IICT Student Chapter",
       ],
     },
   ],
