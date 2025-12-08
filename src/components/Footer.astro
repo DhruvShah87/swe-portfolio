@@ -70,7 +70,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               ></path></svg
             >
           </a>
-          <a
+          <!-- <a
             href={siteConfig.social.twitter}
             target="_blank"
             rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path
                 d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg
             >
-          </a>
+          </a> -->
           <a
             href={siteConfig.social.github}
             target="_blank"
@@ -192,4 +192,54 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
       <rect width="100%" height="100%" fill="url(#footer-pattern)"></rect>
     </svg>
   </div>
+  <!-- Info toggle (CSS-only) -->
+<div class="absolute bottom-4 right-4 flex flex-col items-end gap-2">
+
+  <!-- Hidden checkbox controls the toggle -->
+  <input type="checkbox" id="info-toggle" class="hidden peer" />
+
+  <!-- Info text -->
+  <div
+  class="opacity-0 scale-95 pointer-events-none
+         peer-checked:opacity-100 peer-checked:scale-100 peer-checked:pointer-events-auto
+         transition-all duration-300
+         bg-white text-sm text-gray-700 px-3 py-1.5 rounded-lg shadow-md border border-gray-200"
+>
+  Template by 
+  <a
+    href="https://github.com/RyanFitzgerald/devportfolio"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="font-semibold underline hover:text-[var(--accent-color)] transition-colors"
+  >
+    Ryan Fitzgerald
+  </a>
+</div>
+
+  <!-- Info icon button -->
+  <label
+    for="info-toggle"
+    aria-label="Template info"
+    class="cursor-pointer p-2 rounded-full bg-white border border-gray-200 shadow-sm hover:shadow-md transition-all"
+  >
+   <svg
+  xmlns="http://www.w3.org/2000/svg"
+  class="h-4 w-4 text-gray-600"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <circle cx="12" cy="12" r="10"></circle>
+  <line x1="12" y1="16" x2="12" y2="12"></line>
+  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+</svg>
+  </label>
+</div>
+
 </footer>
+
+
+
