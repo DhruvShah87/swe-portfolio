@@ -10,8 +10,8 @@ export const siteConfig = {
     github: "https://github.com/DhruvShah87",
   },
   aboutMe:
-    "Aspiring Software Engineer driven by a passion for solving real-world problems through clean, scalable code. Experienced in software development, cloud deployment, and system design through both industry experience and independent projects. Eager to contribute to meaningful, high-impact engineering teams",
-  skills: ["Javascript", "Node.js", "Express.js","React", "React Native",  "C++", "SQL", "AWS"],
+    "I am a Software Engineer with a strong interest in building reliable, scalable, and well-structured applications. Through my industry internship and my personal projects, I’ve gained hands-on experience designing systems, developing APIs, working with databases, and deploying applications using modern tools. I enjoy solving real-world problems through clean architecture and thoughtful engineering, and I’m actively seeking opportunities where I can contribute, learn, and grow as part of a collaborative software engineering team.",
+  skills: ["TypeScript", "Node.js", "Express.js","React", "React Native",  "C++", "SQL", "AWS", "Langchain"],
   projects: [
     {
       name: "KitchenConnect",
@@ -37,7 +37,7 @@ export const siteConfig = {
     {
       name: "News Research Tool (RAG)",
       description:
-        "A Retrieval-Augmented Generation (RAG) agent that helps users find answers from the content of news article URLs ",
+        "A retrieval-augmented agent that helps users find answers from the content of news article URLs ",
       link: "https://news-research-tool-kklk.onrender.com",
       skills: ["Python", "Langchain", "Gemini" ],
     },
@@ -72,11 +72,11 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "Dhirubhai Ambani University",
+      school: "Dhirubhai Ambani University (Formerly DA-IICT)",
       degree: "Bachelors of Technology in Information and Communication Technology",
       dateRange: "2021 - 2025",
       achievements: [
-        "Graduated with 9.01 CPI",
+        "Graduated with 9.05 CPI",
         "Studied core software engineering subjects including Data Structures and Algorithms, OOPs, DBMS, Computer Networks, and Cloud Computing",
         "Chair of IEEE IAS DA-IICT Student Chapter",
       ],
